@@ -32,7 +32,13 @@ def on_draw(delta_time):
     draw_grass()
     draw_snow_person(on_draw.snow_person1_x, 140)
     draw_snow_person(450, 180)
+
+    # Add one to the x value, making the snow person move right
+    # Negative numbers move left. Larger numbers move faster.
     on_draw.snow_person1_x += 1
+
+
+# Create a value that our on_draw.snow_person1_x will start at.
 on_draw.snow_person1_x = 150
 
 
@@ -43,6 +49,7 @@ def main():
     # Call on_draw every 60th of a second.
     arcade.schedule(on_draw, 1/60)
     arcade.run()
+
 
 
 # Call the main function to get the program started.
