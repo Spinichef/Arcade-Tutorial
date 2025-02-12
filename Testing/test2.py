@@ -1,3 +1,5 @@
+print("A Monster is attacking you!")
+print()
 class Cat:
     def __init__(self):
         self.name = ""
@@ -5,7 +7,16 @@ class Cat:
         self.weight = 0
 
     def meow(self):
-        print("Meow.")
+        var = input("Do you attack the Monster? (Y/N): ")
+        if var.upper() == "Y":
+            print()
+            print("Meow!")
+            monster.decrease_health(200)
+        elif var.upper() == "N":
+            print()
+            print("Meow.")
+            print("The Monster walks away.")
+
 
 def main():
     cat = Cat()
@@ -28,9 +39,6 @@ class Monster:
 monster = Monster()
 monster.name = "monster"
 monster.health = 100
-monster.decrease_health(288)
+monster.decrease_health(0)
 
-
-
-
-
+main()
