@@ -25,7 +25,6 @@ def test2():
 
 
 
-
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
@@ -96,3 +95,4 @@ def main2():
     print(bob.name, "has", bob.money, "dollars.")
     print(nancy.name, "has", nancy.money, "dollars.")
 
+main()
