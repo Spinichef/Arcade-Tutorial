@@ -71,4 +71,4 @@ def tenth():
             print(j, end=" ")
         print()
 
-tenth()
+third()

@@ -23,6 +23,7 @@ class Cat:
             print()
             print("Meow.")
             print("The Monster walks away.")
+            exit()
 
 def main():
     cat = Cat()
