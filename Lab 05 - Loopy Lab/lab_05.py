@@ -1,5 +1,9 @@
 def main():
 
+    for i in range (10):
+        print("*", end=" ")
+
+def first():
     for i in range(10):
         print("*", end=" ")
     print()
@@ -9,11 +13,14 @@ def main():
     for i in range(20):
         print("*", end=" ")
 
+#i just dont get it
 def second():
     for i in range(10):
-        for j in range(10):
+        for j in range(10+i):
             print("*", end=" ")
-        print()
+        for j in range(10-i):
+            print("*", end=" ")
+            print()
 
 def third():
     for i in range(10):
@@ -70,4 +77,4 @@ def tenth():
         for j in range(i - 1, 0, -1):
             print(j, end=" ")
         print()
-seventh()
+first()

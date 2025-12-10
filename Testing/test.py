@@ -95,4 +95,4 @@ def main2():
     print(bob.name, "has", bob.money, "dollars.")
     print(nancy.name, "has", nancy.money, "dollars.")
 
-main()
+test2()
