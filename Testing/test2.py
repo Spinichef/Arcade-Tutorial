@@ -1,5 +1,4 @@
-print("A Monster is attacking you!")
-print()
+
 class Cat:
     def __init__(self):
         self.name = ""
@@ -35,6 +34,8 @@ class Monster:
         if self.health <= 0:
             print("The " + self.name + " is dead.")
 
+print("A Monster is attacking you!")
+print()
 
 monster = Monster()
 monster.name = "monster"

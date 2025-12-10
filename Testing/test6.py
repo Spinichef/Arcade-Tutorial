@@ -1,4 +1,3 @@
-for i in range (10):
-    for j in range (10):
-        print("*", end=" ")
-    print()
+
+v = str(2 * 3.14) + "r"
+print(v)
