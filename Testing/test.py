@@ -95,4 +95,8 @@ def main2():
     print(bob.name, "has", bob.money, "dollars.")
     print(nancy.name, "has", nancy.money, "dollars.")
 
-test2()
+
+def add_numbers(x, y):
+    return x + y
+
+add_numbers(3, 3)

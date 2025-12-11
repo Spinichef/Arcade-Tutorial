@@ -1,3 +1,4 @@
 
-v = str(2 * 3.14) + "r"
-print(v)
+is_even = lambda x: x % 2 == 0
+
+is_even(3)

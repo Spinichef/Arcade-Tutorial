@@ -50,4 +50,10 @@ def calculator3():
         ergebnis = zahl1 // zahl2
     print("Das Ergebnis ist " + str(ergebnis))
 
-calculator2()
+def calculator4():
+    x = 2
+    y = 3
+    calc = lambda x, y: x + y
+    print(calc)
+
+calculator4()
